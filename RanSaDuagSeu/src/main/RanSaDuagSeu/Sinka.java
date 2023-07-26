@@ -1,21 +1,21 @@
 
-import java.util.Scanner;
-
 public class Sinka {
 
     private String name;
+    private String category;
     private double price;
     private int jamuan;
 
 
     // Constructor
-    public Sinka(String name, double price) {
+    public Sinka(String name, double price, String category) {
         this.name = name;
+        this.category = category;
         this.price = price;
-        this.jamuan = randomJamuan();
+        this.jamuan = random();
 
     }
-    private int randomJamuan() {
+    private int random() {
         int min = 1;
         int max = 10;
         int range = max - min + 1;
@@ -25,28 +25,27 @@ public class Sinka {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public double getPrice() {
         return price;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
-
     public int getJamuan() {
         return jamuan;
     }
-
     public void setJamuan(int jamuan) {
         this.jamuan = jamuan;
     }
 
-    public static void main(String[] args) {
+    public String getCategory() {
+        return category;
+    }
 
+    public void setCategory(String category) {
+        this.category = category;
     }
 }
