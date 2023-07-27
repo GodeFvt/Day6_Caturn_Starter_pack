@@ -64,6 +64,7 @@ public class PokemonTrainer {
         }
     }
     public void letThemFight(int who,Pokemon outer){ //ให้ Pokemonสู้กัน โดยรับ who มา who จะกลายเป็นลำดับที่ของ Pokemon ใน Array เรา และรับ Outer Pokemon มาเพื่อ เอามาสู้กัน
+        who -= 1; 
         if(pokemons[who].level>outer.level){ //ถ้า Level ของ Pokemon เรา มากกว่า Outer Pokemon เราชนะ
             System.out.println("Congrate !!!, "+pokemons[who].name+" Win!!!");
 
