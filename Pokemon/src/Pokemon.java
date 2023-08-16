@@ -1,10 +1,10 @@
 public class Pokemon {
     //สร้าง Attribute 4 ตัว
-    public String name;
-    public int atk;
-    public int def;
-    public int level;
-    public String element;
+    private String name;
+    private int atk;
+    private int def;
+    private int level;
+    private String element;
 
     //Constructure โดยรับแค่ ชื่อ กับ ธาตุ Attribute ที่เหลือ จะใช้ method Random
     public Pokemon(String name,String element){

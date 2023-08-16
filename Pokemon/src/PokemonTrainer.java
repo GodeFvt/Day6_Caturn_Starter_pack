@@ -6,9 +6,9 @@ public class PokemonTrainer {
 
     //constructure ที่รับ name และ maxPokemons เพื่อรับจำนวนสูงสุงของ Array
     public PokemonTrainer(String name, int maxPokemons){
-        this.name=name;
-        this.pokemons=new Pokemon[maxPokemons]; //กำหนด Array และ ขนาด Array จาก maxPokemons
-        this.pokemonCount=0; //เรื่มต้นการนับเป็นจำนวนที่ 0 ก่อน
+        this.name = name;
+        this.pokemons = new Pokemon[maxPokemons]; //กำหนด Array และ ขนาด Array จาก maxPokemons
+        this.pokemonCount = 0; //เรื่มต้นการนับเป็นจำนวนที่ 0 ก่อน
     }
 
     // Getter Setter
@@ -42,7 +42,7 @@ public class PokemonTrainer {
             if(pokemonCount<pokemons.length){ //ถ้า การนับจำนวน < ความกว้างของ Array
                 this.pokemons[pokemonCount]=pokemon; //Pokemon ลำดับที่กำลังนับอยู่ จะกลายเป็น pokemon ที่รับมาในบรรทัด public void addPokemon(Pokemon pokemon)
                 pokemonCount++; //Update ค่าให้กับการนับ
-                System.out.println("Ting!!!,Success! ,Add "+pokemon.name+" Complete"); //โชว์คำพูด ถ้า add เสร็จ
+                System.out.println("Ting!!!,Success! ,Add "+pokemon.getName()+" Complete"); //โชว์คำพูด ถ้า add เสร็จ
             }else { //ถ้าไม่สำเร็จ
                 System.out.println("Cannot add any more!!!,It's full."); //โชว์คำพูด ถ้า การนับจำนวน >= ความกว้างของ Array (Array เต็ม)
             }
@@ -65,13 +65,13 @@ public class PokemonTrainer {
     }
     public void letThemFight(int who,Pokemon outer){ //ให้ Pokemonสู้กัน โดยรับ who มา who จะกลายเป็นลำดับที่ของ Pokemon ใน Array เรา และรับ Outer Pokemon มาเพื่อ เอามาสู้กัน
         who -= 1;
-        if(pokemons[who].level>outer.level){ //ถ้า Level ของ Pokemon เรา มากกว่า Outer Pokemon เราชนะ
-            System.out.println("Congrate !!!, "+pokemons[who].name+" Win!!!");
+        if(pokemons[who].getLevel()>outer.getLevel()){ //ถ้า Level ของ Pokemon เรา มากกว่า Outer Pokemon เราชนะ
+            System.out.println("Congrate !!!, "+pokemons[who].getName()+" Win!!!");
 
-        }else if(pokemons[who].level==outer.level){ //ถ้า Level ของ Pokemon เรา เท่ากับ Outer Pokemon ก็จะเสมอ
+        }else if(pokemons[who].getLevel()==outer.getLevel()){ //ถ้า Level ของ Pokemon เรา เท่ากับ Outer Pokemon ก็จะเสมอ
             System.out.println("Draw!!");
         }else{ //ถ้าLevelเราน้อยกว่าก็ Outer Pokemon ชนะ
-            System.out.println("You Lose!!!, "+outer.name+" Win!");
+            System.out.println("You Lose!!!, "+outer.getName()+" Win!");
         }
     }
 }
