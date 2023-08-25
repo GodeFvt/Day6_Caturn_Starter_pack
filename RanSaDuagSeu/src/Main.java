@@ -30,5 +30,6 @@ public class Main {
         RankaGot.removeSinka("sugarawd");
         RankaGot.showAllSinka();
         System.out.println("----------------------------------------------");
+        System.out.println(Math.pow(2,3));
     }
 }

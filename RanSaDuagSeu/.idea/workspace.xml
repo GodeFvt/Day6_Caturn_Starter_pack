@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fa9126-5a88-47bd-9bdc-59f890140580" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Pokemon/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pokemon/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pokemon/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pokemon/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pokemon/src/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pokemon/src/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pokemon/src/PokemonTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pokemon/src/PokemonTrainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "F:/Day6_Caturn_Starter_pack/RanSaDuagSeu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -45,6 +42,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="RanSaDuagSeu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +67,10 @@
       <workItem from="1690446160461" duration="97000" />
       <workItem from="1690446278153" duration="19000" />
       <workItem from="1692185760467" duration="424000" />
+      <workItem from="1692359810035" duration="2000" />
+      <workItem from="1692365875259" duration="54000" />
+      <workItem from="1692547858019" duration="1252000" />
+      <workItem from="1692961237152" duration="18000" />
     </task>
     <servers />
   </component>
